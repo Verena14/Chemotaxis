@@ -20,6 +20,7 @@ void setup()
   size(500, 500);
   textSize(14);
   textAlign(CENTER);
+  noStroke();
 
   grey = new Bacteria[100];
   for (int i = 0; i < grey.length; i++)
