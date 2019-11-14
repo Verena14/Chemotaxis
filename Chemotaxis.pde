@@ -92,7 +92,7 @@ void draw()
 //  }
   
   //timer
-  time = (int)5 - ((int)z/(int)60);
+  time = (int)(5 - (z/60));
   if (time > 0) {
     fill(0, 255, 0);
   } else {
