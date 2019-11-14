@@ -243,6 +243,6 @@ void mousePressed()
 {
   dayTime = !dayTime;
   //System.out.println(z);
-  System.out.println(grey[0].mySpeed);
+  //System.out.println(grey[0].mySpeed);
   z = 0;
 }
