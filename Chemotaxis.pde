@@ -103,7 +103,7 @@ void draw()
 
   fill(0);
   text("Timer", 473, 460);
-  text(time, 473, 480);
+  text((int)time, 473, 480);
 
   //end part
   if (theEnd) {
