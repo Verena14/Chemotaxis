@@ -99,11 +99,11 @@ void draw()
     fill(255, 0, 0);
   }
   //timer box
-  rect(440, 440, 60, 60);
+  rect(440, 0, 60, 60);
 
   fill(0);
-  text("Timer", 473, 460);
-  text((int)time, 473, 480);
+  text("Timer", 473, 20);
+  text((int)time, 473, 40);
 
   //end part
   if (theEnd) {
