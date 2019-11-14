@@ -92,7 +92,7 @@ void draw()
 //  }
   
   //timer
-  time = (int)(5 - (z/60));
+  time = 5 - (z/60);
   if (time > 0) {
     fill(0, 255, 0);
   } else {
@@ -103,7 +103,7 @@ void draw()
 
   fill(0);
   text("Timer", 473, 20);
-  text((int)time, 473, 40);
+  text((int)time+1, 473, 40);
 
   //end part
   if (theEnd) {
